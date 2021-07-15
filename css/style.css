@@ -44,7 +44,7 @@ header {
     padding-right: 200px;
 }
 
-.header-intro a {
+a.btn {
     text-decoration: none;
     color: #ffffff;
     background-color: #E02C6D;
@@ -52,7 +52,7 @@ header {
     padding: 10px 24px;
 }
 
-.header-intro a:hover .fa-arrow-right{
+a:hover .fa-arrow-right{
     transform: translateX(10px);
     transition: .4s;
 }
@@ -111,4 +111,48 @@ header {
     box-shadow: 5px 5px 40px gray;
     margin: 15px;
 }
+
+
+/* =======================
+Highlights Section Styles
+==========================*/
+
+.highlights {
+    padding: 100px 0 150px;
+    margin: 0 15%;
+}
+
+.highlights-intro h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
+.highlights-intro p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+    padding-right: 165px;
+
+}
+
+.highlights-banner img {
+    width: 567px;
+    height: 427px;
+    box-shadow: 5px 5px 40px gray;
+}
+
+
+
+
+
+
+
+
+
+
 
