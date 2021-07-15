@@ -190,6 +190,7 @@ footer {
 footer .site-logo {
     width: 480px;
     height: 110px;
+    margin-bottom: 20px;
 }
 
 .social-logos i {
@@ -202,4 +203,8 @@ footer .site-logo {
 .social-logos i:hover {
     transform: scale(1.4);
     transition: 0.4s;
+}
+
+.copyright {
+    margin-top: 40px;
 }
