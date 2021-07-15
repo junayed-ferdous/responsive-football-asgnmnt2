@@ -1,0 +1,88 @@
+/* ====================
+        Imports
+=======================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* ====================
+     Utility Styles
+=======================*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====================
+  Header Section Styles
+=======================*/
+
+header {
+    background-color: #2D25A0;
+    height: 700px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-50 {
+    width: 50%;
+}
+
+.header-intro {
+    margin: 150px 0 170px 156px;
+}
+
+.header-intro h1 {
+    color: #FFFFFF;
+    ;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    padding-right: 200px;
+}
+
+.header-intro a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #E02C6D;
+    font-weight: 500;
+    padding: 10px 24px;
+}
+
+.header-intro a:hover .fa-arrow-right{
+    transform: translateX(10px);
+    transition: .4s;
+}
+
+.header-banner img {
+    width: 556px;
+    height: 438px;
+    margin-top: 130px;
+}
+
+.header-banner img:hover {
+    transform: translate(20px, -30px);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
