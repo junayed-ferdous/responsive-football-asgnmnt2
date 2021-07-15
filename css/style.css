@@ -177,3 +177,29 @@ Gallery Section Styles
 }
 
 
+/* =======================
+Footer Section Styles
+==========================*/
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer .site-logo {
+    width: 480px;
+    height: 110px;
+}
+
+.social-logos i {
+    color: #969BAB;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+.social-logos i:hover {
+    transform: scale(1.4);
+    transition: 0.4s;
+}
