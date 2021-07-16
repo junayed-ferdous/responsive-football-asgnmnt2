@@ -162,10 +162,6 @@ Gallery Section Styles
     font-weight: 700;
 }
 
-.gallery-images {
-    
-}
-
 .gallery-images img {
     width: 300px;
     height: 200px;
@@ -208,3 +204,122 @@ footer .site-logo {
 .copyright {
     margin-top: 40px;
 }
+
+
+
+
+/* =======================
+   =======================     
+        Media Queries
+        =============
+==========================
+==========================*/
+
+/* =======================
+     For Mobile Devices
+==========================*/
+
+@media only screen and (max-width:688px) {
+    
+    header.flex {
+        display: inline-block;
+        height: 750px;
+        overflow: hidden;
+    }
+
+    .header-intro {
+        margin: 20px 15px;
+        padding: 100px 65px 0 16px;
+    }
+
+    .header-intro.flex-50 {
+        width: 100%;
+        padding: 0;
+        margin: 100px 0 0 20px;
+    }
+
+    .header-intro h1 {
+        font-size: 36px;
+        line-height: 50px;
+        padding-right: 400px;
+    }
+
+
+    
+    .header-banner img {
+        width: 330px;
+        height: 260px;
+        margin-top: 100px;
+        padding: 0 50%;
+    }
+
+   
+    .players-details {
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5% 25%;
+        
+    }
+
+    .highlights.flex {
+        display: inline-block;
+    }
+
+    .highlights-intro {
+        width: 100%;
+    }
+
+    .highlights-intro h2 {
+        font-size: 30px;
+        line-height: normal;
+        padding-right: 0;
+    }
+
+    .highlights-intro p {
+        line-height: normal;
+        padding-right: 0;
+    }
+
+    .highlights-banner img {
+        width: 328px;
+        height: 248px;
+        margin: 20% 30%;
+    }
+
+    .gallery {
+        display: inline-block;
+        padding: 5% 20%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* =======================
+     For Tablet Devices
+==========================*/
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    
+}
+
+
+
+
+
+
+
+
+
